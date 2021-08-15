@@ -1,7 +1,7 @@
 const express = require("express");
 var cors = require('cors')
 const db = require("./db/connection")
-const PORT = process.env.PORT || 7000
+const PORT = process.env.PORT || 8000
 
 const artiName =require("./routers/artiName")
 
